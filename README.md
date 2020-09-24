@@ -46,7 +46,7 @@ public function up()
 <p>http://localhost:8000/products open this url and see the results!</p>
 
 <h4> Further Understanding in CRUD Function</h4>
-<pre>app/http/controller/ProductController.php</pre><p>All the 7 default functions located and can be call as<b> Controller File</b></p>
+<pre>app/http/controller/ProductController.php</pre><p>All the 7 default functions located and can be call as<b> Controller File</b></pre></p>
 <pre>routes/web.php</pre><p>The routes for product page</p>
 <h5>Insert Data in Laravel</h5>
 <p>The view file (resources/views/create.blade.php)</p>
