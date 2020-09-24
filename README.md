@@ -62,8 +62,8 @@ public function up()
 <p><pre>Here to delete it use<pre> @method('DELETE')</pre><p>
 <p>In form action we add routes,it will bring product id same like when update so it will delete the correct product<pre>{{ route('products.destroy',$product->id) }}</p>
 <h5>Here some meaning for function use in Laravel</h5>
-<pre>@csrf -> it will protect our apps from Cross Site Request Forgery attacks, it will create csrf token for each active session to verify auntheticated user</pre>
-<pre>Since Laravel 5.6 to delete and put function using tag -> @method("DELETE") and @method("PUT")</pre>
-<pre>@extends -> use to 'extend' the template and the template can extend using own section using -> @yield</pre>
+<p>@csrf -> it will protect our apps from Cross Site Request Forgery attacks, it will create csrf token for each active session to verify auntheticated user</p>
+<p>Since Laravel 5.6 to delete and put function using tag -> @method("DELETE") and @method("PUT")</p>
+<p>@extends -> use to 'extend' the template and the template can extend using own section using -> @yield</p>
  
   
