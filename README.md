@@ -59,8 +59,8 @@ public function up()
 <p>The view file (resources/views/edit.blade.php)</p>
 <p>In form action we add routes, as we know here it will bring product id as unique key so it will edit the correct product<pre>{{ route('products.update',$product->id) }}</pre></p>
 <h5>Delete Data in Laravel</h5>
-<p>Here to delete it use<pre> @method('DELETE')</pre><p>
-<p>In form action we add routes,it will bring product id same like when update so it will delete the correct product<pre>{{ route('products.destroy',$product->id) }}</p>
+<p>Here to delete it use<pre>@method('DELETE')</pre><p>
+<p>In form action we add routes,it will bring product id same like when update so it will delete the correct product<pre>{{ route('products.destroy',$product->id) }}</pre></p>
 <h5>Here some meaning for function use in Laravel</h5>
 <p>@csrf -> it will protect our apps from Cross Site Request Forgery attacks, it will create csrf token for each active session to verify auntheticated user</p>
 <p>Since Laravel 5.6 to delete and put function using tag -> @method("DELETE") and @method("PUT")</p>
