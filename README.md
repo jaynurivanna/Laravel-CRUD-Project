@@ -46,7 +46,7 @@ public function up()
 <p>http://localhost:8000/products open this url and see the results!</p>
 
 <h4> Further Understanding in CRUD Function</h4>
-<pre>app/http/controller/ProductController.php</pre><p>All the 7 default functions located and can be call as<b> Controller File</b></pre></p>
+<pre>app/http/controller/ProductController.php</pre><p>All the 7 default functions located and can be call as<b> Controller File</b></p>
 <pre>routes/web.php</pre><p>The routes for product page</p>
 <h5>Insert Data in Laravel</h5>
 <p>The view file (resources/views/create.blade.php)</p>
@@ -57,9 +57,9 @@ public function up()
 <p>In form data field we add the code and it will display the data from db<pre>{{ $product->name }}</pre></p>
 <h5>Update Data in Laravel</h5>
 <p>The view file (resources/views/edit.blade.php)</p>
-<p>In form action we add routes, as we know here it will bring product id as unique key so it will edit the correct product<pre>{{ route('products.update',$product->id) }}</p>
+<p>In form action we add routes, as we know here it will bring product id as unique key so it will edit the correct product<pre>{{ route('products.update',$product->id) }}</pre></p>
 <h5>Delete Data in Laravel</h5>
-<p><pre>Here to delete it use<pre> @method('DELETE')</pre><p>
+<p>Here to delete it use<pre> @method('DELETE')</pre><p>
 <p>In form action we add routes,it will bring product id same like when update so it will delete the correct product<pre>{{ route('products.destroy',$product->id) }}</p>
 <h5>Here some meaning for function use in Laravel</h5>
 <p>@csrf -> it will protect our apps from Cross Site Request Forgery attacks, it will create csrf token for each active session to verify auntheticated user</p>
