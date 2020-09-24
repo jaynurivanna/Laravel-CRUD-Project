@@ -51,7 +51,7 @@ public function up()
 <h5>Insert Data in Laravel</h5>
 <p>The view file (resources/views/create.blade.php)</p>
 <p>The Model File(app/Providers/product.php)</p>
-<p>In form action we add the route so it will process the function that we use<pre><form action="{{ route('products.store') }}" method="POST"></pre></p>
+<p>In form action we add the route so it will process the function that we use<pre>form action="{{ route('products.store') }}" method="POST"</pre></p>
 <h5>Retrieve Data in Laravel</h5>
 <p>The view file (resources/views/view.blade.php)</p>
 <p>In form data field we add the code and it will display the data from db<pre>{{ $product->name }}</pre></p>
